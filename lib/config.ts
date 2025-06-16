@@ -29,9 +29,9 @@ export const APP_DOMAIN = "https://inVerus.chat"
 
 export const SUGGESTIONS = [
   {
-    label: "Summary",
-    highlight: "Summarize",
-    prompt: `Summarize`,
+    label: "First Name",
+    highlight: "First Name",
+    prompt: `First Name`,
     items: [
       "Summarize the French Revolution",
       "Summarize the plot of Inception",
@@ -41,9 +41,9 @@ export const SUGGESTIONS = [
     icon: Notepad,
   },
   {
-    label: "Code",
-    highlight: "Help me",
-    prompt: `Help me`,
+    label: "Family Name",
+    highlight: "Family Name",
+    prompt: `Family Name`,
     items: [
       "Help me write a function to reverse a string in JavaScript",
       "Help me create a responsive navbar in HTML/CSS",
@@ -53,9 +53,9 @@ export const SUGGESTIONS = [
     icon: Code,
   },
   {
-    label: "Design",
-    highlight: "Design",
-    prompt: `Design`,
+    label: "Location",
+    highlight: "Location",
+    prompt: `Location`,
     items: [
       "Design a color palette for a tech blog",
       "Design a UX checklist for mobile apps",
@@ -65,9 +65,9 @@ export const SUGGESTIONS = [
     icon: PaintBrush,
   },
   {
-    label: "Research",
-    highlight: "Research",
-    prompt: `Research`,
+    label: "ID Number",
+    highlight: "ID Number",
+    prompt: `ID Number`,
     items: [
       "Research the pros and cons of remote work",
       "Research the differences between Apple Vision Pro and Meta Quest",
@@ -77,9 +77,9 @@ export const SUGGESTIONS = [
     icon: BookOpenText,
   },
   {
-    label: "Get inspired",
-    highlight: "Inspire me",
-    prompt: `Inspire me`,
+    label: "Phone Number",
+    highlight: "Phone Number",
+    prompt: `Phone Number`,
     items: [
       "Inspire me with a beautiful quote about creativity",
       "Inspire me with a writing prompt about solitude",
@@ -89,9 +89,9 @@ export const SUGGESTIONS = [
     icon: Sparkle,
   },
   {
-    label: "Think deeply",
-    highlight: "Reflect on",
-    prompt: `Reflect on`,
+    label: "Email",
+    highlight: "Email",
+    prompt: `Email`,
     items: [
       "Reflect on why we fear uncertainty",
       "Reflect on what makes a conversation meaningful",
@@ -99,18 +99,6 @@ export const SUGGESTIONS = [
       "Reflect on what it means to live intentionally",
     ],
     icon: Brain,
-  },
-  {
-    label: "Learn gently",
-    highlight: "Explain",
-    prompt: `Explain`,
-    items: [
-      "Explain quantum physics like I'm 10",
-      "Explain stoicism in simple terms",
-      "Explain how a neural network works",
-      "Explain the difference between AI and AGI",
-    ],
-    icon: Lightbulb,
   },
 ]
 
