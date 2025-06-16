@@ -6,7 +6,7 @@ import { ButtonNewChat } from "@/app/components/layout/button-new-chat"
 import { UserMenu } from "@/app/components/layout/user-menu"
 import { useBreakpoint } from "@/app/hooks/use-breakpoint"
 import type { Agent } from "@/app/types/agent"
-import { inVerusIcon } from "@/components/icons/inVerus"
+// import { zolaIcon } from "@/components/icons/zola"
 import { Button } from "@/components/ui/button"
 import { useAgent } from "@/lib/agent-store/provider"
 import { APP_NAME } from "@/lib/config"
@@ -38,7 +38,7 @@ export function Header({ hasSidebar }: { hasSidebar: boolean }) {
                 href="/"
                 className="pointer-events-auto inline-flex items-center text-xl font-medium tracking-tight"
               >
-                <inVerusIcon className="mr-1 size-4" />
+                {/* <zolaIcon className="mr-1 size-4" /> */}
                 {APP_NAME}
               </Link>
               {hasSidebar && isMobile && <HeaderSidebarTrigger />}
