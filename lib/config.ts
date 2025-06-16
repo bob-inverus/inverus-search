@@ -1,11 +1,11 @@
 import {
-  BookOpenText,
-  Brain,
-  Code,
-  Lightbulb,
-  Notepad,
-  PaintBrush,
-  Sparkle,
+  At,
+  DeviceMobile,
+  Envelope,
+  IdentificationCard,
+  MapPin,
+  User,
+  Users,
 } from "@phosphor-icons/react/dist/ssr"
 
 export const NON_AUTH_DAILY_MESSAGE_LIMIT = 5
@@ -32,73 +32,37 @@ export const SUGGESTIONS = [
     label: "First Name",
     highlight: "First Name",
     prompt: `First Name`,
-    items: [
-      "Summarize the French Revolution",
-      "Summarize the plot of Inception",
-      "Summarize World War II in 5 sentences",
-      "Summarize the benefits of meditation",
-    ],
-    icon: Notepad,
+    icon: User,
   },
   {
     label: "Family Name",
     highlight: "Family Name",
     prompt: `Family Name`,
-    items: [
-      "Help me write a function to reverse a string in JavaScript",
-      "Help me create a responsive navbar in HTML/CSS",
-      "Help me write a SQL query to find duplicate emails",
-      "Help me convert this Python function to JavaScript",
-    ],
-    icon: Code,
+    icon: Users,
   },
   {
     label: "Location",
     highlight: "Location",
     prompt: `Location`,
-    items: [
-      "Design a color palette for a tech blog",
-      "Design a UX checklist for mobile apps",
-      "Design 5 great font pairings for a landing page",
-      "Design better CTAs with useful tips",
-    ],
-    icon: PaintBrush,
+    icon: MapPin,
   },
   {
     label: "ID Number",
     highlight: "ID Number",
     prompt: `ID Number`,
-    items: [
-      "Research the pros and cons of remote work",
-      "Research the differences between Apple Vision Pro and Meta Quest",
-      "Research best practices for password security",
-      "Research the latest trends in renewable energy",
-    ],
-    icon: BookOpenText,
+    icon: IdentificationCard,
   },
   {
     label: "Phone Number",
     highlight: "Phone Number",
     prompt: `Phone Number`,
-    items: [
-      "Inspire me with a beautiful quote about creativity",
-      "Inspire me with a writing prompt about solitude",
-      "Inspire me with a poetic way to start a newsletter",
-      "Inspire me by describing a peaceful morning in nature",
-    ],
-    icon: Sparkle,
+    icon: DeviceMobile,
   },
   {
     label: "Email",
     highlight: "Email",
     prompt: `Email`,
-    items: [
-      "Reflect on why we fear uncertainty",
-      "Reflect on what makes a conversation meaningful",
-      "Reflect on the concept of time in a simple way",
-      "Reflect on what it means to live intentionally",
-    ],
-    icon: Brain,
+    icon: Envelope,
   },
 ]
 
