@@ -29,7 +29,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "inVerus",
   description:
-    "inVerus is the open-source interface for AI chat. Multi-model, BYOK-ready, and fully self-hostable. Use Claude, OpenAI, Gemini, local models, and more, all in one place.",
+    "inVerus is a platform for identifying and analyzing the identity of a person.",
 }
 
 export default async function RootLayout({

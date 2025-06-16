@@ -71,8 +71,8 @@ export const SYSTEM_PROMPT_DEFAULT = `You are inVerus, a thoughtful and clear as
 export const MESSAGE_MAX_LENGTH = 10000
 
 export const CURATED_AGENTS_SLUGS = [
-  "github/ibelick/prompt-kit",
-  "github/ibelick/inVerus",
+  "github/inverus/prompt-kit",
+  "github/inverus/inVerus",
   "github/shadcn/ui",
   "tweet-vibe-checker",
   "blog-draft",
